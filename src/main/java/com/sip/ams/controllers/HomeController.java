@@ -11,5 +11,11 @@ public class HomeController {
 		System.out.println("methode info");
 		return "home/info";
 	}
+	@RequestMapping("/affiche")
+
+	public String affiche() {
+		System.out.println("methode affiche");
+		return "home/affiche";
+	}
 
 }
